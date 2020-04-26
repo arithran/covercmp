@@ -1,0 +1,5 @@
+ok  	compress/bzip2	(cached)	coverage: 87.5% of statements
+ok  	compress/flate	(cached)	coverage: 93.8% of statements
+ok  	compress/gzip	(cached)	coverage: 89.9% of statements
+ok  	compress/lzw	(cached)	coverage: 87.2% of statements
+ok  	compress/zlib	(cached)	coverage: 84.7% of statements

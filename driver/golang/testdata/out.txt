@@ -1,0 +1,5 @@
+ok  	compress/bzip2	0.186s	coverage: 87.5% of statements
+ok  	compress/flate	8.183s	coverage: 93.8% of statements
+ok  	compress/gzip	0.678s	coverage: 89.9% of statements
+ok  	compress/lzw	0.325s	coverage: 87.2% of statements
+ok  	compress/zlib	0.960s	coverage: 84.7% of statements
