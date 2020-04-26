@@ -42,7 +42,6 @@ compress/zlib      84.7%          84.7%         0.0%
 covercmp go before.txt after.txt
 ```
 
-Example templates, can be found in the [examples folder](./examples/go-microservice-template)
-
 ## Contribute
-Pull requests are welcome!
+1. Pull requests are welcome
+2. The API is open enough to support other Langages. See [Golang driver](./driver/golang) implementation for more details
