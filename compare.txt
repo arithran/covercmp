@@ -1,0 +1,6 @@
+package            before cov     after cov     delta
+compress/bzip2     87.5%          97.5%         10.0%
+compress/flate     82.7%          93.8%         11.1%
+compress/gzip      89.9%          89.9%         0.0%
+compress/lzw       87.2%          87.2%         0.0%
+compress/zlib      84.7%          84.7%         0.0%
