@@ -2,6 +2,12 @@
 The covercmp command displays code coverage changes between unit tests.
 This plugin is heavily inspired by [benchcmp](https://godoc.org/golang.org/x/tools/cmd/benchcmp)
 
+This tool is the first piece I needed in a larger project to support free
+code coverage in CI/CD especially because companies are looking to cut costs due
+to COVID-19
+
+
+## Usage
 To measure the coverage impact of a change, use 'go test' to run coverage before and after the change:
 ```bash
 go test -count=1 -cover > before.txt
@@ -32,16 +38,11 @@ compress/zlib      84.7%          84.7%         0.0%
 - (Optional Step) Move it to a folder in your PATH variable. (`mv covercmp /bin`)
 
 
-## Supported Langages
+## Supported Languages
 
 - [x] [Golang](./driver/golang)
 - [ ] TBD
 
-## Usage
-```bash
-covercmp go before.txt after.txt
-```
-
 ## Contribute
 1. Pull requests are welcome
-2. The API is open enough to support other Langages. See [Golang driver](./driver/golang) implementation for more details
+2. The API is open enough to support other Languages. See [Golang driver](./driver/golang) implementation for more details
